@@ -47,17 +47,22 @@ if [[ ! -f "${ROS_SETUP}" ]]; then
 
     source_package="ros2-apt-source_${source_version}.${ubuntu_codename}_all.deb"
     source_url="https://github.com/ros-infrastructure/ros-apt-source/releases/download/${source_version}/${source_package}"
-    curl -fsSL "${source_url}" -o "/tmp/${source_package}"
+    command curl --fail --silent --show-error --location "${source_url}" \
+        --output "/tmp/${source_package}"
     sudo dpkg -i "/tmp/${source_package}"
     sudo apt-get update
     sudo apt-get install -y ros-lyrical-desktop
+else
+    printf 'ROS 2 %s is already installed; skipping distro installation.\n' "${ROS_DISTRO}"
 fi
 
 sudo apt-get update
 sudo apt-get install -y python3-pip python3-venv python3-rosdep \
     python3-colcon-common-extensions
 
+set +u
 source "${ROS_SETUP}"
+set -u
 
 ros_packages=()
 while IFS= read -r line || [[ -n "${line}" ]]; do
