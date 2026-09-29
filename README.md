@@ -5,8 +5,8 @@ ROS 2 workspace for the capstone robot.
 ## Setup (Ubuntu 26.04, Raspberry Pi, WSL2)
 1. `git clone https://github.com/MREN403-CAPSTONE-GROUP9/robotEnv.git  && cd robotEnv`
 2. `./setup.sh`
-3. In a new terminal, source ROS and run:
- - `source /opt/ros/lyrical/setup.bash`
+3. In a new terminal, activate the project environment and run:
+ - `source ./activate.sh`
  - `ros2 run demo_nodes_cpp talker` (smoke test)
  - `ros2 run <your_package> <your_node>`
 
