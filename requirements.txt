@@ -3,3 +3,5 @@
 
 # Python packages are installed into .venv with pip.
 # Add project Python dependencies below as standard pip requirements.
+opencv-python
+numpy
