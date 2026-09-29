@@ -8,7 +8,7 @@ ROS 2 workspace for the capstone robot.
 4. In a new terminal, cd to robotEnv, activate the project environment, and run:
  - `cd robotEnv`
  - `source ./activate.sh`
- - `ros2 run <your_package> <your_node>`
+ - `ros2 run demo_nodes_cpp listener`
 
 The script installs ROS 2 Lyrical if it is not already installed, then installs
 the ROS packages listed in `requirements.txt` and Python packages into `.venv`.
