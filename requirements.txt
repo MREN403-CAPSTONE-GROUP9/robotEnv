@@ -1,0 +1,5 @@
+# ROS packages are installed with apt by setup.sh.
+# ros: ros-lyrical-demo-nodes-cpp
+
+# Python packages are installed into .venv with pip.
+# Add project Python dependencies below as standard pip requirements.
