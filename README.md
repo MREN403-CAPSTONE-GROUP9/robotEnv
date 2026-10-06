@@ -3,7 +3,6 @@
 ROS 2 workspace and Python environment for the capstone robot, intended for
 Ubuntu 26.04 in WSL2.
 
-<<<<<<< HEAD
 ## Setup (Ubuntu 26.04 confimred; see ros.org for extra Raspberry Pi and WSL2 steps)
 1. run `git clone https://github.com/MREN403-CAPSTONE-GROUP9/robotEnv.git  && cd robotEnv`
 2. then `./setup.sh` and `ros2 run demo_nodes_cpp talker` (smoke test)
@@ -11,9 +10,6 @@ Ubuntu 26.04 in WSL2.
  - `cd robotEnv`
  - `source ./activate.sh`
  - `ros2 run demo_nodes_cpp listener`
-=======
-## First-time setup
->>>>>>> 9568cdf (enhanced setup)
 
 ```bash
 git clone https://github.com/MREN403-CAPSTONE-GROUP9/robotEnv.git
