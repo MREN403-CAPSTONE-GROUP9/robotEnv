@@ -58,7 +58,7 @@ fi
 
 sudo apt-get update
 sudo apt-get install -y python3-pip python3-venv python3-rosdep \
-    python3-colcon-common-extensions
+    python3-colcon-common-extensions direnv
 
 set +u
 source "${ROS_SETUP}"
@@ -82,6 +82,15 @@ python3 -m venv "${ROOT_DIR}/.venv"
 "${ROOT_DIR}/.venv/bin/python" -m pip install --upgrade pip
 "${ROOT_DIR}/.venv/bin/python" -m pip install -r "${REQUIREMENTS_FILE}"
 
+bashrc="${HOME}/.bashrc"
+touch "${bashrc}"
+if ! grep -Fqx 'eval "$(direnv hook bash)"' "${bashrc}"; then
+    printf '\n# Load direnv for per-directory project environments.\neval "$(direnv hook bash)"\n' \
+        >> "${bashrc}"
+fi
+direnv allow "${ROOT_DIR}"
+
 printf '\nROS 2 %s and project dependencies are installed.\n' "${ROS_DISTRO}"
-printf 'To use ROS in a new terminal, run: source %s\n' "${ROS_SETUP}"
-printf 'Python dependencies are available in: %s/.venv\n' "${ROOT_DIR}"
+printf 'Open a new WSL terminal and enter %s to activate ROS and the Python venv automatically.\n' \
+    "${ROOT_DIR}"
+printf 'Manual activation is also available with: source %s/activate.sh\n' "${ROOT_DIR}"

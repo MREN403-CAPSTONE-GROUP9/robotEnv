@@ -1,3 +1,7 @@
+# Local Python and direnv environments are machine-specific.
+.venv/
+.direnv/
+
 devel/
 logs/
 build/

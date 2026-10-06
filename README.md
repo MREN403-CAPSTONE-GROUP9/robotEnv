@@ -1,7 +1,9 @@
-# Capstone Robot
+# Capstone Robot Environment
 
-ROS 2 workspace for the capstone robot.
+ROS 2 workspace and Python environment for the capstone robot, intended for
+Ubuntu 26.04 in WSL2.
 
+<<<<<<< HEAD
 ## Setup (Ubuntu 26.04 confimred; see ros.org for extra Raspberry Pi and WSL2 steps)
 1. run `git clone https://github.com/MREN403-CAPSTONE-GROUP9/robotEnv.git  && cd robotEnv`
 2. then `./setup.sh` and `ros2 run demo_nodes_cpp talker` (smoke test)
@@ -9,24 +11,65 @@ ROS 2 workspace for the capstone robot.
  - `cd robotEnv`
  - `source ./activate.sh`
  - `ros2 run demo_nodes_cpp listener`
+=======
+## First-time setup
+>>>>>>> 9568cdf (enhanced setup)
 
-The script installs ROS 2 Lyrical if it is not already installed, then installs
-the ROS packages listed in `requirements.txt` and Python packages into `.venv`.
+```bash
+git clone https://github.com/MREN403-CAPSTONE-GROUP9/robotEnv.git
+cd robotEnv
+./setup.sh
+```
 
-## For Windows Testng
-Do **not** install ROS 2 natively. Use WSL2:
-1. PowerShell (Admin): `wsl --install -d Ubuntu-26.04` → reboot
-2. Open "Ubuntu 26.04" from the Start menu
-3. Follow the Setup steps above
-4. RViz/Gazebo windows appear automatically (WSLg)
+`setup.sh` installs ROS 2 Lyrical, the ROS packages listed in
+`requirements.txt`, the Python venv, and the `direnv` Bash hook. It then
+approves this repository's `.envrc`. Open a new WSL terminal after setup.
 
-USB devices (controller, camera):
-- `winget install usbipd`
-- In WSL2: `usbipd list`
-- Admin PowerShell: `usbipd bind --busid <BUSID>`
-- In WSL2: `usbipd attach --wsl --busid <BUSID>`
+## Daily use
+
+When you enter the repository directory in Bash, `.envrc` automatically
+activates the ROS and Python environments. Leaving the directory removes the
+directory-specific environment.
+
+To activate manually, use:
+
+```bash
+source ./activate.sh
+```
+
+You can check the ROS installation with:
+
+```bash
+ros2 run demo_nodes_cpp talker
+```
+
+## Python environment and Git
+
+The `.venv` directory is intentionally excluded from Git. A virtual
+environment contains machine-specific executables and paths, so a copy
+committed from one computer would not be reliable on another computer or
+clone. Instead, `requirements.txt` is tracked and `./setup.sh` creates the
+local `.venv` and installs its dependencies. Run the setup script once after
+cloning on each computer.
+
+## Windows and WSL2
+
+Do not install ROS 2 natively on Windows. From an elevated PowerShell prompt:
+
+```powershell
+wsl --install -d Ubuntu-26.04
+```
+
+Restart Windows if prompted, open Ubuntu 26.04, and follow the first-time
+setup steps above. WSLg can display graphical ROS applications such as RViz.
+
+For USB devices, install `usbipd` on Windows, then use `usbipd list`,
+`usbipd bind --busid <BUSID>` from elevated PowerShell, and
+`usbipd attach --wsl --busid <BUSID>` from WSL.
 
 ## Layout
+
 - `src/` — ROS 2 packages (colcon workspace)
-- `setup.sh` — one-time environment setup# robotEnv
-main eviroment
+- `setup.sh` — one-time ROS and dependency setup
+- `activate.sh` — manual ROS and venv activation
+- `.envrc` — automatic activation when entering the repository with direnv
