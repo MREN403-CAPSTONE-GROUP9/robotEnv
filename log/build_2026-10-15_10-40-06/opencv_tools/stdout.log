@@ -1,0 +1,26 @@
+running egg_info
+writing ../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+writing dependency_links to ../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+writing entry points to ../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+writing requirements to ../build/opencv_tools/opencv_tools.egg-info/requires.txt
+writing top-level names to ../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+reading manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+writing manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+copying opencv_tools/__init__.py -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/pub.py -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/sub.py -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/py.typed -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+running install
+running install_lib
+running install_data
+copying resource/opencv_tools -> /home/lbalog/robotEnv/install/opencv_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/lbalog/robotEnv/install/opencv_tools/share/opencv_tools
+running install_egg_info
+removing '/home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../build/opencv_tools/opencv_tools.egg-info to /home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools-0.0.0-py3.14.egg-info
+running install_scripts
+Installing image_publisher script to /home/lbalog/robotEnv/install/opencv_tools/lib/opencv_tools
+Installing image_subscriber script to /home/lbalog/robotEnv/install/opencv_tools/lib/opencv_tools
+writing list of installed files to '/home/lbalog/robotEnv/build/opencv_tools/install.log'

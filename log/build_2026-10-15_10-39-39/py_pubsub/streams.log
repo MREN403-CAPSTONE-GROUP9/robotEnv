@@ -1,0 +1,29 @@
+[2.220s] Invoking command in '/home/lbalog/robotEnv/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lbalog/robotEnv/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lbalog/robotEnv/install/py_pubsub/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/lbalog/robotEnv/build/py_pubsub/build install --record /home/lbalog/robotEnv/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed install_data
+[2.668s] running egg_info
+[2.692s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.693s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.693s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.694s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.694s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.747s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.748s] adding license file 'LICENSE'
+[2.749s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.750s] running build
+[2.750s] running build_py
+[2.753s] copying py_pubsub/subscriber_member_function.py -> /home/lbalog/robotEnv/build/py_pubsub/build/lib/py_pubsub
+[2.753s] copying py_pubsub/__init__.py -> /home/lbalog/robotEnv/build/py_pubsub/build/lib/py_pubsub
+[2.753s] copying py_pubsub/publisher_member_function.py -> /home/lbalog/robotEnv/build/py_pubsub/build/lib/py_pubsub
+[2.754s] copying py_pubsub/py.typed -> /home/lbalog/robotEnv/build/py_pubsub/build/lib/py_pubsub
+[2.754s] running install
+[2.761s] running install_lib
+[2.785s] running install_data
+[2.785s] copying resource/py_pubsub -> /home/lbalog/robotEnv/install/py_pubsub/share/ament_index/resource_index/packages
+[2.785s] copying package.xml -> /home/lbalog/robotEnv/install/py_pubsub/share/py_pubsub
+[2.786s] running install_egg_info
+[2.811s] removing '/home/lbalog/robotEnv/install/py_pubsub/lib/python3.14/site-packages/py_pubsub-0.0.0-py3.14.egg-info' (and everything under it)
+[2.813s] Copying ../build/py_pubsub/py_pubsub.egg-info to /home/lbalog/robotEnv/install/py_pubsub/lib/python3.14/site-packages/py_pubsub-0.0.0-py3.14.egg-info
+[2.814s] running install_scripts
+[3.007s] Installing listener script to /home/lbalog/robotEnv/install/py_pubsub/lib/py_pubsub
+[3.008s] Installing talker script to /home/lbalog/robotEnv/install/py_pubsub/lib/py_pubsub
+[3.011s] writing list of installed files to '/home/lbalog/robotEnv/build/py_pubsub/install.log'
+[3.199s] Invoked command in '/home/lbalog/robotEnv/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lbalog/robotEnv/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lbalog/robotEnv/install/py_pubsub/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/lbalog/robotEnv/build/py_pubsub/build install --record /home/lbalog/robotEnv/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed install_data

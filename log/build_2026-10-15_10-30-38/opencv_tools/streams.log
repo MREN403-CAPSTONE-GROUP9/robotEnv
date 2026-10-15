@@ -1,0 +1,38 @@
+[1.997s] Invoking command in '/home/lbalog/robotEnv/opencv_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lbalog/robotEnv/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/opencv_tools build --build-base /home/lbalog/robotEnv/build/opencv_tools/build install --record /home/lbalog/robotEnv/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data
+[2.407s] running egg_info
+[2.433s] creating ../build/opencv_tools/opencv_tools.egg-info
+[2.434s] writing ../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[2.434s] writing dependency_links to ../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[2.435s] writing requirements to ../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[2.436s] writing top-level names to ../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[2.436s] writing manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.485s] reading manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.486s] writing manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.487s] running build
+[2.487s] running build_py
+[2.487s] creating /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+[2.487s] copying opencv_tools/__init__.py -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+[2.488s] copying opencv_tools/sub.py -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+[2.489s] copying opencv_tools/py.typed -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+[2.490s] running install
+[2.497s] running install_lib
+[2.520s] creating /home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools
+[2.522s] copying /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools
+[2.522s] copying /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools/sub.py -> /home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools
+[2.522s] copying /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools/py.typed -> /home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools
+[2.523s] byte-compiling /home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools/__init__.py to __init__.cpython-314.pyc
+[2.523s] byte-compiling /home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools/sub.py to sub.cpython-314.pyc
+[2.525s] running install_data
+[2.525s]   File "/home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools/sub.py", line 10
+[2.525s]     super().init(‘image_subscriber’)
+[2.525s]                  ^
+[2.525s] SyntaxError: invalid character '‘' (U+2018)
+[2.525s] 
+[2.527s] creating /home/lbalog/robotEnv/install/opencv_tools/share/ament_index/resource_index/packages
+[2.527s] copying resource/opencv_tools -> /home/lbalog/robotEnv/install/opencv_tools/share/ament_index/resource_index/packages
+[2.527s] copying package.xml -> /home/lbalog/robotEnv/install/opencv_tools/share/opencv_tools
+[2.527s] running install_egg_info
+[2.551s] Copying ../build/opencv_tools/opencv_tools.egg-info to /home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools-0.0.0-py3.14.egg-info
+[2.552s] running install_scripts
+[2.670s] writing list of installed files to '/home/lbalog/robotEnv/build/opencv_tools/install.log'
+[2.842s] Invoked command in '/home/lbalog/robotEnv/opencv_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lbalog/robotEnv/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/opencv_tools build --build-base /home/lbalog/robotEnv/build/opencv_tools/build install --record /home/lbalog/robotEnv/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data

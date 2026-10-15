@@ -1,0 +1,28 @@
+[2.226s] Invoking command in '/home/lbalog/robotEnv/opencv_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lbalog/robotEnv/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/opencv_tools build --build-base /home/lbalog/robotEnv/build/opencv_tools/build install --record /home/lbalog/robotEnv/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data
+[2.689s] running egg_info
+[2.712s] writing ../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[2.716s] writing dependency_links to ../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[2.716s] writing entry points to ../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[2.717s] writing requirements to ../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[2.717s] writing top-level names to ../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[2.767s] reading manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.768s] writing manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[2.769s] running build
+[2.769s] running build_py
+[2.773s] copying opencv_tools/__init__.py -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+[2.773s] copying opencv_tools/pub.py -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+[2.773s] copying opencv_tools/sub.py -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+[2.774s] copying opencv_tools/py.typed -> /home/lbalog/robotEnv/build/opencv_tools/build/lib/opencv_tools
+[2.774s] running install
+[2.781s] running install_lib
+[2.805s] running install_data
+[2.806s] copying resource/opencv_tools -> /home/lbalog/robotEnv/install/opencv_tools/share/ament_index/resource_index/packages
+[2.808s] copying package.xml -> /home/lbalog/robotEnv/install/opencv_tools/share/opencv_tools
+[2.809s] running install_egg_info
+[2.831s] removing '/home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools-0.0.0-py3.14.egg-info' (and everything under it)
+[2.833s] Copying ../build/opencv_tools/opencv_tools.egg-info to /home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools-0.0.0-py3.14.egg-info
+[2.835s] running install_scripts
+[3.027s] Installing image_publisher script to /home/lbalog/robotEnv/install/opencv_tools/lib/opencv_tools
+[3.028s] Installing image_subscriber script to /home/lbalog/robotEnv/install/opencv_tools/lib/opencv_tools
+[3.029s] writing list of installed files to '/home/lbalog/robotEnv/build/opencv_tools/install.log'
+[3.175s] Invoked command in '/home/lbalog/robotEnv/opencv_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lbalog/robotEnv/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/opencv_tools build --build-base /home/lbalog/robotEnv/build/opencv_tools/build install --record /home/lbalog/robotEnv/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data

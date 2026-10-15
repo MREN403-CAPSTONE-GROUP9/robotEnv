@@ -1,8 +1,15 @@
 # ROS packages are installed with apt by setup.sh.
 # ros: ros-lyrical-demo-nodes-cpp
-ros-lyrical-rqt
+# ros: ros-lyrical-rqt
+# ros: ros-lyrical-camera-ros
 
 # Python packages are installed into .venv with pip.
 # Add project Python dependencies below as standard pip requirements.
+MatPlotLib
+PyQtGraph
+cv_bridge
 opencv-python
-numpy
+em
+lark
+pyyaml
+typing_extensions

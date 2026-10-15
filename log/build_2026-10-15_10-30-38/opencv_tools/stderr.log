@@ -1,0 +1,5 @@
+  File "/home/lbalog/robotEnv/install/opencv_tools/lib/python3.14/site-packages/opencv_tools/sub.py", line 10
+    super().init(‘image_subscriber’)
+                 ^
+SyntaxError: invalid character '‘' (U+2018)
+
