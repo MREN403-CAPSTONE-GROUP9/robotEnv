@@ -6,8 +6,8 @@ import cv2
 
 class ImageSubscriber(Node):
 
-    def init(self):
-        super().init('image_subscriber')
+    def __init__(self):
+        super().__init__('image_subscriber')
         self.subscription = self.create_subscription(
             Image,
             'usb_webcam',
@@ -22,12 +22,17 @@ class ImageSubscriber(Node):
         cv2.imshow("camera", current_frame)
         cv2.waitKey(1)
 
-    def main(args=None):
-        rclpy.init(args=args)
-        image_subscriber = ImageSubscriber()
+
+def main(args=None):
+    rclpy.init(args=args)
+    image_subscriber = ImageSubscriber()
+    try:
         rclpy.spin(image_subscriber)
+    finally:
         image_subscriber.destroy_node()
+        cv2.destroyAllWindows()
         rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

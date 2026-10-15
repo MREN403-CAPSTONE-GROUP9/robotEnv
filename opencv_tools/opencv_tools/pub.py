@@ -16,16 +16,21 @@ class ImagePublisher(Node):
 
     def timer_callback(self):
         ret, frame = self.cap.read()
-        if ret == True:
-            self.publisher_.publish(self.br.cv2_to_imgmsg(frame))
+        if ret:
+            self.publisher_.publish(self.br.cv2_to_imgmsg(frame, encoding='bgr8'))
             self.get_logger().info('Publishing video frame')
 
-    def main(args=None):
-        rclpy.init(args=args)
-        image_publisher = ImagePublisher()
+
+def main(args=None):
+    rclpy.init(args=args)
+    image_publisher = ImagePublisher()
+    try:
         rclpy.spin(image_publisher)
+    finally:
+        image_publisher.cap.release()
         image_publisher.destroy_node()
         rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

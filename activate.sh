@@ -27,6 +27,7 @@ _robot_env_restore_nounset=0
 set +u
 source "${_robot_env_venv}"
 source "${_robot_env_ros}"
+source "${_robot_env_root}/install/setup.bash"
 if (( _robot_env_restore_nounset )); then
     set -u
 fi
