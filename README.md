@@ -1,7 +1,12 @@
 # Capstone Robot Environment
 
 ROS 2 workspace and Python environment for the capstone robot, intended for
-Ubuntu 26.04 in WSL2.
+Ubuntu 26.04 in WSL2 and Raspberry Pi 5.
+
+Raspberry Pi 5 uses LXQT desktop environment. 
+IP: 10.72.228.136
+Username: frosty
+Password: group9
 
 ## Setup (Ubuntu 26.04 confimred; see ros.org for extra Raspberry Pi and WSL2 steps)
 1. run `git clone https://github.com/MREN403-CAPSTONE-GROUP9/robotEnv.git  && cd robotEnv`
