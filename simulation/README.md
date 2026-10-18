@@ -10,9 +10,9 @@ To run simulation:
 
 To control robot using arrow keys:
 
-1.Click 3 dots at top right corner and select "Key Publisher".
+1. Click 3 dots at top right corner and select "Key Publisher".
 
-2.Open a new terminal and navigate to robotEnv/
+2. Open a new terminal and navigate to robotEnv/
 
 3. `gz topic -e -t /keyboard/keypress`
 
