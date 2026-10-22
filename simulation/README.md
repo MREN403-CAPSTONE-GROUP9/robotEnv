@@ -1,4 +1,4 @@
-To install Gazebo:  
+To install Gazebo Jetty:  
 1. `cd robotEnv/`  
 2. `sudo apt-get install ros-lyrical-ros-gz`
    
