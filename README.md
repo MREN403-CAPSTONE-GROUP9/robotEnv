@@ -69,3 +69,22 @@ For USB devices, install `usbipd` on Windows, then use `usbipd list`,
 - `setup.sh` — one-time ROS and dependency setup
 - `activate.sh` — manual ROS and venv activation
 - `.envrc` — automatic activation when entering the repository with direnv
+
+
+
+# for Viewing image
+when opencv_tools papackage is running use `rviz2` to view
+if using on wsl may need to install packages to ensure driver comapatablity
+
+```
+sudo apt install mesa-utils
+```
+or try 
+```
+export QT_QPA_PLATFORM=xcb
+```
+
+
+# for issues with networking from pi to wsl try mirror mode
+
+https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-settings-for-wslconfig

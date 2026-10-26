@@ -1,0 +1,88 @@
+[-1792976100188725504.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[-1792976100188725504.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff93f53c50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff93f467b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff93f467b0>>)
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-1792976100188725504.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lbalog/robotEnv/opencv_tools'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[-1792976100188725504.000s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'opencv_tools'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[-1792976100188725504.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lbalog/robotEnv/install
+[-1792976100188725504.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 292 installed packages in /opt/ros/lyrical
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[-1792976100188725504.000s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_args' from command line to 'None'
+[-1792976100188725504.000s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target' from command line to 'None'
+[-1792976100188725504.000s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1792976100188725504.000s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[-1792976100188725504.000s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_first' from command line to 'False'
+[-1792976100188725504.000s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_force_configure' from command line to 'False'
+[-1792976100188725504.000s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'ament_cmake_args' from command line to 'None'
+[-1792976100188725504.000s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[-1792976100188725504.000s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1792976100188725504.000s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lbalog/robotEnv/opencv_tools/build/opencv_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools', 'merge_install': False, 'path': '/home/lbalog/robotEnv/opencv_tools', 'symlink_install': False, 'test_result_base': None}
+[-1792976100188725504.000s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-1792976100188725504.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-1792976100188725504.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lbalog/robotEnv/opencv_tools' with build type 'ament_python'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'ament_prefix_path')
+[-1792976100188725504.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.ps1'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.dsv'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.sh'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1792976100188725504.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1792976100188725504.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lbalog/robotEnv/opencv_tools'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1792976100188725504.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1792976100188725504.000s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_egg, build_clib, update_catalog, setopt, saveopts, easy_install, egg_info, build_scripts, alias, dist_info, sdist, compile_catalog, build_ext, install_scripts, bdist, install_headers, clean, install_lib, extract_messages, init_catalog, bdist_dumb, install, build, editable_wheel, install_egg_info, bdist_wheel, bdist_rpm, build_py, symlink_data, develop, check, rotate, install_data
+[-1792976100188725504.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lbalog/robotEnv/opencv_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lbalog/robotEnv/opencv_tools/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/opencv_tools build --build-base /home/lbalog/robotEnv/opencv_tools/build/opencv_tools/build install --record /home/lbalog/robotEnv/opencv_tools/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data
+[-1792976100188725504.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lbalog/robotEnv/opencv_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/lbalog/robotEnv/opencv_tools/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/opencv_tools build --build-base /home/lbalog/robotEnv/opencv_tools/build/opencv_tools/build install --record /home/lbalog/robotEnv/opencv_tools/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.environment:checking '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools' for CMake module files
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.environment:checking '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools' for CMake config files
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.environment:checking '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/lib'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.environment:checking '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/bin'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.environment:checking '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/lib/pkgconfig/opencv_tools.pc'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.environment:checking '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/lib/python3.14/site-packages'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'pythonpath')
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/hook/pythonpath.ps1'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/hook/pythonpath.dsv'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/hook/pythonpath.sh'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.environment:checking '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/bin'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tools)
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/package.ps1'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/package.dsv'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/package.sh'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/package.bash'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/opencv_tools/package.zsh'
+[-1792976100188725504.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lbalog/robotEnv/opencv_tools/install/opencv_tools/share/colcon-core/packages/opencv_tools)
+[-1792976100188725504.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[-1792976100188725504.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[-1792976100188725504.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[-1792976100188725504.000s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[-1792976100188725504.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lbalog/robotEnv/opencv_tools/install/local_setup.ps1'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lbalog/robotEnv/opencv_tools/install/_local_setup_util_ps1.py'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lbalog/robotEnv/opencv_tools/install/setup.ps1'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lbalog/robotEnv/opencv_tools/install/local_setup.sh'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lbalog/robotEnv/opencv_tools/install/_local_setup_util_sh.py'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lbalog/robotEnv/opencv_tools/install/setup.sh'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lbalog/robotEnv/opencv_tools/install/local_setup.bash'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lbalog/robotEnv/opencv_tools/install/setup.bash'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lbalog/robotEnv/opencv_tools/install/local_setup.zsh'
+[-1792976100188725504.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lbalog/robotEnv/opencv_tools/install/setup.zsh'
