@@ -2,8 +2,10 @@
 .venv/
 .direnv/
 
+
 devel/
 logs/
+log/
 build/
 bin/
 lib/
