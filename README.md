@@ -93,3 +93,8 @@ export QT_QPA_PLATFORM=xcb
 # for issues with networking from pi to wsl try mirror mode
 
 https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-settings-for-wslconfig
+
+and then enable firewall passthrough
+```
+Set-NetFirewallHyperVVMSetting -Name '{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}' -DefaultInboundAction Allow
+```
