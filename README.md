@@ -96,13 +96,13 @@ export QT_QPA_PLATFORM=xcb
 
 # for issues with networking from pi to wsl try mirror mode
 
-## Related Repositories
-- [Main Project Portfolio](https://github.com/MREN403-CAPSTONE-GROUP9)
-- [Project Management Board](https://github.com/orgs/MREN403-CAPSTONE-GROUP9/projects/1)
-
 https://learn.microsoft.com/en-us/windows/wsl/wsl-config#configuration-settings-for-wslconfig
 
 and then enable firewall passthrough
 ```
 Set-NetFirewallHyperVVMSetting -Name '{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}' -DefaultInboundAction Allow
 ```
+
+## Related Repositories
+- [Main Project Portfolio](https://github.com/MREN403-CAPSTONE-GROUP9)
+- [Project Management Board](https://github.com/orgs/MREN403-CAPSTONE-GROUP9/projects/1)
