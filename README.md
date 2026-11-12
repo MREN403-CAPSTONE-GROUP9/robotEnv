@@ -55,7 +55,9 @@ cloning on each computer.
 
 ## Windows and WSL2
 
-Do not install ROS 2 natively on Windows. From an elevated PowerShell prompt:
+Ideally do not run ROS 2 natively on Windows. robotControl has code to setup and run on windows. This repo is for running on a robot. If needed to activate on windows run in WSL.
+
+From an elevated PowerShell prompt:
 
 ```powershell
 wsl --install -d Ubuntu-26.04
@@ -67,6 +69,8 @@ setup steps above. WSLg can display graphical ROS applications such as RViz.
 For USB devices, install `usbipd` on Windows, then use `usbipd list`,
 `usbipd bind --busid <BUSID>` from elevated PowerShell, and
 `usbipd attach --wsl --busid <BUSID>` from WSL.
+
+open powershell and enter `wsl.exe` to launch wsl then clone repo and run setup.sh
 
 ## Layout
 
