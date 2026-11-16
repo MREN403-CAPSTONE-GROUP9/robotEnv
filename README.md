@@ -4,9 +4,17 @@ ROS 2 workspace and Python environment for the capstone robot, intended for
 Ubuntu 26.04 in WSL2 and Raspberry Pi 5.
 
 Raspberry Pi 5 uses LXQT desktop environment.  
-IP: 10.75.188.136  
+Dynamic wlan IP address. Setup to connect to Skyler's mobile hotspot.  
+eth0 IP address: 192.158.1.50   
 Username: frosty  
 Password: group9
+
+To setup connection to different wireless network:  
+1. Remote access Pi using ethernet.
+2. Go to /etc/netplan. Right click and select "open in terminal".
+3. `sudo nano 50-cloud-init.yaml` and enter password.
+4. Add network information under "access points"
+5. Save and use `sudo netplan try` to apply changes.
 
 ## Setup (Ubuntu 26.04 confimred; see ros.org for extra Raspberry Pi and WSL2 steps)
 1. run `git clone https://github.com/MREN403-CAPSTONE-GROUP9/robotEnv.git  && cd robotEnv`
