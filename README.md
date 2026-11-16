@@ -53,6 +53,15 @@ You can check the ROS installation with:
 ros2 run demo_nodes_cpp talker
 ```
 
+## Required Packages
+Nav2: https://docs.nav2.org/lyrical/getting_started/quickstart/quickstart/#quickstart
+
+`sudo apt install ros-lyrical-navigation2`
+
+`sudo apt install ros-lyrical-nav2-bringup`
+
+Slam Toolbox: https://github.com/SteveMacenski/slam_toolbox (already installed as part of nav2-bringup)
+
 ## Python environment and Git
 
 The `.venv` directory is intentionally excluded from Git. A virtual
