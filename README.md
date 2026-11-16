@@ -5,6 +5,7 @@ Ubuntu 26.04 in WSL2 and Raspberry Pi 5.
 
 Raspberry Pi 5 uses LXQT desktop environment.  
 Dynamic wlan IP address. Setup to connect to Skyler's mobile hotspot.  
+
 eth0 IP address: 192.158.1.50   
 Username: frosty  
 Password: group9
